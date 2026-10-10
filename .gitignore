@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / сборка
+build/
+dist/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Docker
+*.pid
+*.seed
+*.log
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы окружения (секреты)
+.env
+.env.local
+.env.*.local
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# PostgreSQL volume (на случай, если данные где-то рядом)
+pgdata/
